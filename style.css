@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+html{
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(18, 18, 75, 0.51), rgb(24, 24, 24));
+}
+
+.container{
+    width: 50%;
+    background: rgba(0, 0, 0, 0.18);
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    color: #ffa306;
+}
+
+h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    border-bottom: 3px solid #ffa306;
+
+}
+
+input{
+    font-size: 20px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: rgba(255, 163, 6, 0.65);
+}
+
+textarea::-webkit-input-placeholder, input::-webkit-input-placeholder{
+    color: rgba(255, 163, 6, 0.65);
+}
+
+textarea{
+    font-size: 20px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: #ffa306;
+}
+
+select{
+    margin-bottom: 5px;
+}
