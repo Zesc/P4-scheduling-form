@@ -49,3 +49,25 @@ textarea{
 select{
     margin-bottom: 5px;
 }
+
+.back-to-main{
+    position: relative;
+    clear: both;
+    text-align: center;
+    top: 30px;
+    margin-bottom: 20px;
+}
+.back-to-main > a{
+    text-decoration: none;
+    color: #d40000;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.back-to-main > a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
