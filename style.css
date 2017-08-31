@@ -20,11 +20,12 @@ h1 {
     line-height: 1.5;
     padding-bottom: 10px;
     border-bottom: 3px solid rgba(214, 218, 217, .7);
-
+    font-weight: bold;
 }
 
 input{
     font-size: 20px;
+    font-weight: 300;
     padding: 5px 10px;
     background: rgba(255, 255, 255, 1);
     border: 1px solid #533963;
@@ -46,9 +47,11 @@ div.container > select {
     border: 1px solid #533963;
     box-shadow: inset 0 0 3px 1px #533963;
     border-radius: 5px;
+    font-weight: 300;
 }
 
 textarea {
+    font-weight: 300;
     font-size: 20px;
     padding: 5px;
     background: rgba(255, 255, 255, 1);
