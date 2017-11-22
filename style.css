@@ -3,6 +3,37 @@ html {
     background: linear-gradient(to top, #211922, #582256);
 }
 
+.m-valid {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+    background-color: #B7F0D0;
+    border: 1px solid #533963;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: inset 0 0 3px 1px #533963;
+}
+
+.m-invalid {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 10px;
+    background-color: rgba(247,76,83, 0.5);
+    border: 1px solid #f74c53;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+div.container > select.s-valid {
+    background-color: #B7F0D0;
+    border: 1px solid #533963;
+}
+
+div.container > select.s-invalid {
+    background-color: rgba(247,76,83, 0.5);
+    border: 1px solid #f74c53;
+}
+
 .container {
     width: 50%;
     background: rgba(0, 0, 0, 0.18);
@@ -23,7 +54,7 @@ h1 {
     font-weight: bold;
 }
 
-input{
+input {
     font-size: 20px;
     font-weight: 300;
     padding: 5px 10px;
@@ -87,4 +118,28 @@ select {
     color: white;
     background-color: red;
     border-radius: 5px;
+}
+
+button#btn-submit {
+    display: block;
+    text-transform: uppercase;
+    margin: 10px auto;
+    font-size: 1.3em;
+    background: transparent;
+    border-radius: 5px;
+    border: solid 2px rgba(214, 218, 217, .7);
+    padding: 5px 30px;
+    color: rgba(214, 218, 217, .7);
+    font-weight: 500;
+}
+
+button#btn-submit:hover {
+    color: #582256;
+    background: rgba(214, 218, 217, 1);
+    border: solid 2px rgba(214, 218, 217, .7);
+    border-radius: 5px;
+}
+
+button#btn-submit:focus, button#btn-submit:active {
+    outline-style: none;
 }

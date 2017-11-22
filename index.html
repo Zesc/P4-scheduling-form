@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Project 4: Scheduling Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <script type="text/javascript" src="validation.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>SCHEDULING FORM</h1>
-        <input type="date">
-        <input type="time"><br/>
-        <select name="DropDownTimeZone">
+        <input id="f-date" type="date">
+        <input id="f-time" type="time"><br/>
+        <select id="f-tzone" name="DropDownTimeZone">
             <option>Select your time zone</option>
             <option value="-12.0">
                 (GMT -12:00) Eniwetok, Kwajalein
@@ -108,9 +109,11 @@
             </option>
         </select>
         <br/>
-        <textarea rows="7" cols="50" name="comment" placeholder="Message here..."></textarea><br/>
-        <input type="tel" name="phone" placeholder="(999)999-9999"  pattern='[\(]\d{3}[\)]\d{3}[\-]\d{4}'>
-        <input type="email" name="email" placeholder="name@email.com">
+        <textarea id="f-message" rows="7" cols="50" name="comment" placeholder="Message here..."></textarea><br/>
+        <input id="f-pnumb" type="tel" name="phone" placeholder="(999)999-9999"  pattern='[\(]\d{3}[\)]\d{3}[\-]\d{4}'>
+        <input id="f-email" type="email" name="email" placeholder="name@email.com">
+
+        <button id="btn-submit">send</button>
     </div>
 </body>
 </html>
